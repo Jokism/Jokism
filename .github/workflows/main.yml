@@ -31,7 +31,7 @@
                           - name: Compact Display
                             uses: lowlighter/metrics@latest
                             with:
-                                    filename: metrics.plugin.compact.svg
+                                    filename: metrics.plugin.achievements.compact.svg
                                     token: ${{ secrets.METRICS_TOKEN }}
                                     base: ""
                                     plugin_achievements: yes
