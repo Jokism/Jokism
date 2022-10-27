@@ -2,6 +2,9 @@ name: Metrics
 on:
         # Schedule updates every 5 minutes
         schedule: [{cron: "*/5 * * * *"}]
+
+        workflow_dispatch:
+        push: {branches: ["main", "master"]}
 jobs:
         github-metrics:
                 runs-on: ubuntu-latest
