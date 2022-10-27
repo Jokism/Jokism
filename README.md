@@ -10,6 +10,6 @@ align="center"
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Jokism&show_icons=true&include_all_commits=true" alt="Github Stats">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jokism&layout=compact" alt="Top Languages">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Jokism&show_icons=true&include_all_commits=true&theme=dark" alt="Github Stats">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jokism&layout=compact&langs_count=10&theme=dark" alt="Top Languages">
 </div>
