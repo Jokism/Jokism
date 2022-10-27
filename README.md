@@ -9,7 +9,7 @@ align="center"
   <img align="top" width="49%" src="/metrics.plugin.achievements.compact.svg" alt="Achievements"> 
 </div>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Jokism&show_icons=true&include_all_commits=true">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jokism&layout=compact">
-</p>
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Jokism&show_icons=true&include_all_commits=true" alt="Github Stats">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jokism&layout=compact" alt="Top Languages">
+</div>
