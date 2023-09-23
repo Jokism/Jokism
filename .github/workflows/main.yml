@@ -5,12 +5,12 @@ on:
 
         workflow_dispatch:
         push: {branches: ["main", "master"]}
-        repositories_skipped: Jokism
 jobs:
         github-metrics:
                 runs-on: ubuntu-latest
                 permissions:
                   contents: write
+                repositories_skipped: Jokism/Jokism
                 steps:
                         - name: Profile Metrics
                           uses: lowlighter/metrics@latest
