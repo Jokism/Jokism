@@ -12,12 +12,12 @@ jobs:
                   contents: write
                 steps:
                         - name: Profile Metrics
-                          uses: lowlighter/metrics@latest
+                          uses: lowlighter/metrics@master
                           with:
                                   token: ${{ secrets.METRICS_TOKEN }}
                                   repositories_skipped: Jokism/Jokism
                         - name: Organization Introduction
-                          uses: lowlighter/metrics@latest
+                          uses: lowlighter/metrics@master
                           with:
                                   filename: metrics.plugin.introduction.svg
                                   repositories_skipped: Jokism/Jokism
@@ -29,7 +29,7 @@ jobs:
                                   plugin_achievements: yes
                                   plugin_introduction: yes
                         - name: Languages
-                          uses: lowlighter/metrics@latest
+                          uses: lowlighter/metrics@master
                           with:
                                   filename: metrics.plugin.languages.svg
                                   repositories_skipped: Jokism/Jokism
@@ -38,7 +38,7 @@ jobs:
                                   plugin_languages_indepth: yes
                                   commits_authoring: firstname lastname, username, username@users.noreply.github.com
                         - name: Compact Display
-                          uses: lowlighter/metrics@latest
+                          uses: lowlighter/metrics@master
                           with:
                                   filename: metrics.plugin.achievements.compact.svg
                                   repositories_skipped: Jokism/Jokism
